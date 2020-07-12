@@ -69,6 +69,13 @@
             console.log('tecla:', tecla)
             tecla.classList.add('tocando')
         })
+
+        function removerTransition(evento) {
+            console.log('transicao', evento)
+        }
+
+        const teclas = document.querySelectorAll('.tecla')
+        teclas.forEach(cada => cada.addEventListener('transitionend', removerTransition))
     </script>
 
 
