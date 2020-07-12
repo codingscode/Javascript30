@@ -72,8 +72,7 @@
 
         function removerTransition(evento) {
             if (evento.propertyName !== 'transform') return  // skip
-            //console.log(evento.propertyName)
-            console.log(this)
+            this.classList.remove('tocando')
         }
 
         const teclas = document.querySelectorAll('.tecla')
