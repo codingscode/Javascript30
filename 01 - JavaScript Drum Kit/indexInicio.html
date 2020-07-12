@@ -62,7 +62,8 @@
             console.log('*', evento.keyCode)
             const audio = document.querySelector(`audio[data-key="${evento.keyCode}"]`)
             console.log(audio)
-            if (!audio) return console.log(`não há audio associado a ${evento.key}`)
+            if (!audio) return console.log(`não há audio associado a ${evento.key}`) // o return evita entrar no erro
+            audio.currentTime = 0
             audio.play()
         })
     </script>
