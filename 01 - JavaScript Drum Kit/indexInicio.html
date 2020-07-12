@@ -71,7 +71,8 @@
         })
 
         function removerTransition(evento) {
-            console.log('transicao', evento)
+            if (evento.propertyName !== 'transform') return  // skip
+            console.log(evento.propertyName)
         }
 
         const teclas = document.querySelectorAll('.tecla')
