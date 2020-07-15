@@ -72,13 +72,16 @@
   </style>
 
   <script>
+      const ponteiroSegundo = document.querySelector('.ponteiro-segundo')
 
       function setarData() {
           const agora = new Date()
           const segundos = agora.getSeconds()
-          const minutos = agora.getMinutes()
+          const grausSegundos = ((segundos/60)*360 + 90)
+          ponteiroSegundo.style.transform = `rotate(${grausSegundos}deg)`
+          
           console.log('seg', segundos)
-          console.log('min', minutos)
+          
       }
 
       setInterval(setarData, 1000)
