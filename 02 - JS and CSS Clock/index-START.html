@@ -64,12 +64,20 @@
       top: 50%;
       transform-origin: 100%;
       transform: rotate(20deg);
+      transition: all 0.05s;
+      transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);  /* simula o treme do relogio */
+
     }
 
   </style>
 
   <script>
 
+      function setDate() {
+        console.log('Oi')
+      }
+
+      setInterval(setDate, 1000)
 
   </script>
 </body>
