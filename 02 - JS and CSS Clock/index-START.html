@@ -63,7 +63,7 @@
       position: absolute;
       top: 50%;
       transform-origin: 100%;
-      transform: rotate(20deg);
+      transform: rotate(90deg);
       transition: all 0.05s;
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);  /* simula o treme do relogio */
 
@@ -77,7 +77,7 @@
       function setarData() {
           const agora = new Date()
           const segundos = agora.getSeconds()
-          const grausSegundos = ((segundos/60)*360 + 90)
+          const grausSegundos = ((segundos/60)*360)  + 90
           ponteiroSegundo.style.transform = `rotate(${grausSegundos}deg)`
           
           console.log('seg', segundos)
