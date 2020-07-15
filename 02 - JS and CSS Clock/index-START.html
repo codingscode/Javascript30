@@ -73,11 +73,15 @@
 
   <script>
 
-      function setDate() {
-        console.log('Oi')
+      function setarData() {
+          const agora = new Date()
+          const segundos = agora.getSeconds()
+          const minutos = agora.getMinutes()
+          console.log('seg', segundos)
+          console.log('min', minutos)
       }
 
-      setInterval(setDate, 1000)
+      setInterval(setarData, 1000)
 
   </script>
 </body>
