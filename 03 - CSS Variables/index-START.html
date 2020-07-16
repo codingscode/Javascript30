@@ -65,7 +65,8 @@
             const entradas = document.querySelectorAll('.controles input')
 
             function gerenAtualizador() {
-                console.log(this.value)
+                // const sufixo = this.dataset
+                console.log(this.dataset)
             }
 
             entradas.forEach(cada => cada.addEventListener('change', gerenAtualizador))
