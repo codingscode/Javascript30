@@ -27,6 +27,22 @@
           misc styles, nothing to do with CSS variables
         */
 
+        :root {
+           --base: #ffc600;
+           --espacamento: 10px;
+           --borrado: 10px;
+        }
+
+        img {
+           padding: var(--espacamento);
+           background: var(--base);
+           filter: blur(var(--borrado));
+        }
+
+        .h1 {
+           color: var(--base);
+        }
+
         body {
           text-align: center;
           background: #193549;
