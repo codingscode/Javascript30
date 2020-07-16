@@ -39,7 +39,7 @@
            filter: blur(var(--borrado));
         }
 
-        .h1 {
+        .hl {
            color: var(--base);
         }
 
@@ -62,7 +62,14 @@
       </style>
 
       <script>
-        
+            const entradas = document.querySelectorAll('.controles input')
+
+            function gerenAtualizador() {
+                console.log(this.value)
+            }
+
+            entradas.forEach(cada => cada.addEventListener('change', gerenAtualizador))
+
       </script>
 
     </body>
