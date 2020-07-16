@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+    <head>
+      <meta charset="UTF-8">
+      <title>Variáveis CSS de escopo e JS</title>
+    </head>
+
+    <body>
+      <h2>Atualize variáveis CSS com <span class='hl'>JS</span></h2>
+
+      <div class="controles">
+        <label for="espacamento">Espaçamento:</label>
+        <input id="espacamento" type="range" name="espacamento" min="10" max="200" value="10" data-sizing="px">
+
+        <label for="borrado">Turvidez:</label>
+        <input id="borrado" type="range" name="borrado" min="0" max="25" value="10" data-sizing="px">
+
+        <label for="base">Cor Base</label>
+        <input id="base" type="color" name="base" value="#ffc600">
+      </div>
+
+      <img src="./foto.jpg">
+
+      <style>
+
+        /*
+          misc styles, nothing to do with CSS variables
+        */
+
+        body {
+          text-align: center;
+          background: #193549;
+          color: white;
+          font-family: 'helvetica neue', sans-serif;
+          font-weight: 100;
+          font-size: 50px;
+        }
+
+        .controles {
+          margin-bottom: 50px;
+        }
+
+        input {
+          width: 100px;
+        }
+      </style>
+
+      <script>
+        
+      </script>
+
+    </body>
+</html>
