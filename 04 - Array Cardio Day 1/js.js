@@ -1,0 +1,59 @@
+// Get your shorts on - this is an array workout!
+    // ## Array Cardio Day 1
+
+    // Some data we can work with
+
+    const inventores = [
+        { primeiro: 'Albert', ultimo: 'Einstein', ano: 1879, morreu: 1955 },
+        { primeiro: 'Isaac', ultimo: 'Newton', ano: 1643, morreu: 1727 },
+        { primeiro: 'Galileo', ultimo: 'Galilei', ano: 1564, morreu: 1642 },
+        { primeiro: 'Marie', ultimo: 'Curie', ano: 1867, morreu: 1934 },
+        { primeiro: 'Johannes', ultimo: 'Kepler', ano: 1571, morreu: 1630 },
+        { primeiro: 'Nicolaus', ultimo: 'Copernicus', ano: 1473, morreu: 1543 },
+        { primeiro: 'Max', ultimo: 'Planck', ano: 1858, morreu: 1947 },
+        { primeiro: 'Katherine', ultimo: 'Blodgett', ano: 1898, morreu: 1979 },
+        { primeiro: 'Ada', ultimo: 'Lovelace', ano: 1815, morreu: 1852 },
+        { primeiro: 'Sarah E.', ultimo: 'Goode', ano: 1855, morreu: 1905 },
+        { primeiro: 'Lise', ultimo: 'Meitner', ano: 1878, morreu: 1968 },
+        { primeiro: 'Hanna', ultimo: 'Hammarström', ano: 1829, morreu: 1909 }
+    ]
+  
+    const pessoas = [
+         'Beck, Glenn', 'Becker, Carl', 'Beckett, Samuel', 'Beddoes, Mick', 'Beecher, Henry', 'Beethoven, Ludwig', 'Begin, Menachem',
+         'Belloc, Hilaire', 'Bellow, Saul', 'Benchley, Robert', 'Benenson, Peter', 'Ben-Gurion, David', 'Benjamin, Walter', 
+         'Benn, Tony', 'Bennington, Chester', 'Benson, Leana', 'Bent, Silas', 'Bentsen, Lloyd', 'Berger, Ric', 'Bergman, Ingmar', 
+         'Berio, Luciano', 'Berle, Milton', 'Berlin, Irving', 'Berne, Eric', 'Bernhard, Sandra', 'Berra, Yogi', 'Berry, Halle', 
+         'Berry, Wendell', 'Bethea, Erin', 'Bevan, Aneurin', 'Bevel, Ken', 'Biden, Joseph', 'Bierce, Ambrose', 'Biko, Steve', 
+         'Billings, Josh', 'Biondo, Frank', 'Birrell, Augustine', 'Black, Elk', 'Blair, Robert', 'Blair, Tony', 'Blake, William'
+    ]
+  
+    // Array.prototype.filter()
+    // 1. Filter the list of inventors for those who were born in the 1500's
+  
+    // Array.prototype.map()
+    // 2. Give us an array of the inventors first and last names
+  
+    // Array.prototype.sort()
+    // 3. Sort the inventors by birthdate, oldest to youngest
+  
+    // Array.prototype.reduce()
+    // 4. How many years did all the inventors live all together?
+  
+    // 5. Sort the inventors by years lived
+  
+    // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
+    // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+  
+  
+    // 7. sort Exercise
+    // Sort the people alphabetically by last name
+  
+    // 8. Reduce Exercise
+    // Sum up the instances of each of these
+    const dado = [
+          'carro', 'carro', 'caminhao', 'caminhao', 'bicicleta', 'caminhada', 'carro', 'van', 'bicicleta', 'caminhada',
+          'carro', 'van', 'carro', 'caminhao'
+     ]
+
+
+
