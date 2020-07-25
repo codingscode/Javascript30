@@ -98,11 +98,12 @@
     console.log('#07')
 
     const alfabet = pessoas.sort(function(ultimo, proximo) {
-        const [utimo, primeiro] = ultimo.split(', ')
-        console.log(utimo, primeiro)
+        const [a_utimo, a_primeiro] = ultimo.split(', ')
+        const [b_utimo, b_primeiro] = proximo.split(', ')
+        return a_utimo > b_utimo ? 1 : -1
     })
     
-
+    console.log(alfabet)
   
     // 8. Reduce Exercise
     // Sum up the instances of each of these
@@ -111,5 +112,10 @@
           'carro', 'van', 'carro', 'caminhao'
      ]
 
+     console.log('#08')
 
+     const transporte = dado.reduce((objeto, item) => {
+        console.log(item)
+        return objeto
+    }, {})
 
