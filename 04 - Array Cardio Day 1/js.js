@@ -115,7 +115,12 @@
      console.log('#08')
 
      const transporte = dado.reduce((objeto, item) => {
-        console.log(item)
+        if (!objeto[item]) {
+            objeto[item] = 0
+        }
+        objeto[item]++
         return objeto
     }, {})
 
+
+    console.log(transporte)
