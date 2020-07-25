@@ -74,10 +74,23 @@
 
 
     // 5. Sort the inventors by years lived
-  
+    const maisvelho = inventores.sort(function(a, b) {
+        const ultimoCara = a.morreu - a.ano
+        const proximoCara = b.morreu - b.ano
+        return ultimoCara > proximoCara ? -1 : 1
+    })
+
+    console.log('#05')
+    console.table(maisvelho)
+
     // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
     // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
   
+    const categoria = document.querySelector('.mw-category')
+    const links = Array.from(categoria.querySelectorAll('a'))  // ou [...categoria.querySelectorAll('a')]
+
+    const de = links.map(link => link.textContent)
+
   
     // 7. sort Exercise
     // Sort the people alphabetically by last name
