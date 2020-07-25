@@ -98,9 +98,10 @@
     console.log('#07')
 
     const alfabet = pessoas.sort(function(ultimo, proximo) {
-        const partes = ultimo.split(', ')
-        console.log(partes)
+        const [utimo, primeiro] = ultimo.split(', ')
+        console.log(utimo, primeiro)
     })
+    
 
   
     // 8. Reduce Exercise
