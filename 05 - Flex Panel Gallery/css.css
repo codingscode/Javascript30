@@ -75,6 +75,22 @@ body {
     align-content: center;
 }
 
+.painel > *:first-child {
+    transform: translateY(-100%);
+ }
+ 
+ .painel.abrir-active > *:first-child {
+    transform: translateY(0);
+ }
+ 
+ .painel > *:last-child {
+    transform: translateY(100%);
+ }
+ 
+ .painel.abrir-active > *:last-child {
+    transform: translateY(0);
+ }
+
 .painel p {
     text-transform: uppercase;
     font-family: 'Amatic SC', cursive;
