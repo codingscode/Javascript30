@@ -17,6 +17,7 @@ body {
 .paineis {
     min-height: 100vh;
     overflow: hidden;
+    display: flex;
 }
 
 .painel {
