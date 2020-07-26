@@ -38,7 +38,7 @@ body {
     flex: 1;  /* tira o espaço laranja */
     justify-content: center;
     align-items: center;
-    
+    display: flex;
 }
 
 .painel1 {
