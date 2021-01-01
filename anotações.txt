@@ -4,6 +4,8 @@
 pasta 6:
     ver console
 
+    ver console
+
 
 
 

@@ -2,7 +2,9 @@ const ref = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/ra
 
 const cidades = []
 
-fetch(ref).then(blob => console.log(blob))
+fetch(ref)
+      .then(cada => cada.json())
+      .then(dados => console.log(dados))
 
 
 
