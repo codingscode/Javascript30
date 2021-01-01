@@ -15,12 +15,12 @@ input {
   padding: 20px;
 }
 
-.search-form {
+.form-buscar {
   max-width: 400px;
   margin: 50px auto;
 }
 
-input.search {
+input.buscar {
   margin: 0;
   text-align: center;
   outline: 0;
@@ -35,14 +35,14 @@ input.search {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
 }
 
-.suggestions {
+.sugestoes {
   margin: 0;
   padding: 0;
   position: relative;
   /*perspective: 20px;*/
 }
 
-.suggestions li {
+.sugestoes li {
   background: white;
   list-style: none;
   border-bottom: 1px solid #D8D8D8;
@@ -55,17 +55,17 @@ input.search {
   text-transform: capitalize;
 }
 
-.suggestions li:nth-child(even) {
+.sugestoes li:nth-child(even) {
   transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
   background: linear-gradient(to bottom,  #ffffff 0%,#EFEFEF 100%);
 }
 
-.suggestions li:nth-child(odd) {
+.sugestoes li:nth-child(odd) {
   transform: perspective(100px) rotateX(-3deg) translateY(3px);
   background: linear-gradient(to top,  #ffffff 0%,#EFEFEF 100%);
 }
 
-span.population {
+span.populacao {
   font-size: 15px;
 }
 
