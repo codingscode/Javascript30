@@ -7,9 +7,15 @@ fetch(ref)
       .then(dados => cidades.push(...dados))
 
 
+function encontrarCombinacoes(palavra_chave, cidades) {
+    return cidades.filter(lugar => {
+        // aqui nós precisamos se a cidade ou estado combina com o que foi procurado
+        const regex = new RegExp(palavra_chave, 'gi')
+        return lugar.city.match(regex) || lugar.state.match(regex)
+    })
+}
 
-
-
+//encontrarCombinacoes('Bos', cidades)
 
 
 

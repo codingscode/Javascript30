@@ -7,6 +7,7 @@ pasta 6:
     ver console
     cidades com 'let' recebe os dados.  digitar cidades no console. *idem
     desempacota, acesso sem ser via cidades[1]
+    digitar no console : encontrarCombinacoes('Bos', cidades)
 
 
 
