@@ -10,8 +10,8 @@ pasta 6:
     digitar no console : encontrarCombinacoes('Bos', cidades)
     no campo 'cidade ou estado' digitar fda ou qualquer coisa e clicar fora.
        no console aparece: json.js:11 Uncaught TypeError: Cannot read property 'filter' of undefined at HTMLInputElement.encontrarCombinacoes 
-
-
+    no campo 'cidade ou estado' digitar fda ou qualquer coisa e clicar fora.
+        aparece o valor digitado no console
 
 
 

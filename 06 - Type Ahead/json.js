@@ -23,7 +23,7 @@ function mostrarCombinacoes() {
 const entradaBuscar = document.querySelector('.buscar')
 const sugestoes = document.querySelector('.sugestoes')
    
-entradaBuscar.addEventListener('change', encontrarCombinacoes)
+entradaBuscar.addEventListener('change', mostrarCombinacoes)
    
 
 
