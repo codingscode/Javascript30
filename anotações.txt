@@ -8,7 +8,8 @@ pasta 6:
     cidades com 'let' recebe os dados.  digitar cidades no console. *idem
     desempacota, acesso sem ser via cidades[1]
     digitar no console : encontrarCombinacoes('Bos', cidades)
-
+    no campo 'cidade ou estado' digitar fda ou qualquer coisa e clicar fora.
+       no console aparece: json.js:11 Uncaught TypeError: Cannot read property 'filter' of undefined at HTMLInputElement.encontrarCombinacoes 
 
 
 

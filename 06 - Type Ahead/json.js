@@ -16,6 +16,24 @@ function encontrarCombinacoes(palavra_chave, cidades) {
 }
 
 //encontrarCombinacoes('Bos', cidades)
+function mostrarCombinacoes() {
+      console.log(this.value)
+}
+   
+const entradaBuscar = document.querySelector('.buscar')
+const sugestoes = document.querySelector('.sugestoes')
+   
+entradaBuscar.addEventListener('change', encontrarCombinacoes)
+   
+
+
+
+
+
+
+
+
+
 
 
 
