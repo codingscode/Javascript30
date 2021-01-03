@@ -5,6 +5,7 @@ pasta 6:
     ver console
 
     ver console
+    cidades com 'let' recebe os dados.  digitar cidades no console
 
 
 
