@@ -4,7 +4,7 @@ const cidades = []
 
 fetch(ref)
       .then(cada => cada.json())
-      .then(dados => cidades.push(dados))
+      .then(dados => cidades.push(...dados))
 
 
 
