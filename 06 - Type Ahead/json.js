@@ -15,6 +15,10 @@ function encontrarCombinacoes(palavra_chave, cidades) {
     })
 }
 
+function numeroComVirgulas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+}
+
 //encontrarCombinacoes('Bos', cidades)
 function mostrarCombinacoes() {
      //console.log(this.value)
@@ -28,7 +32,7 @@ function mostrarCombinacoes() {
         return `
            <li>
                <span class="nome">${nomeCidade}, ${nomeEstado}</span>
-               <span class="populacao">${lugar.population}</span>
+               <span class="populacao">${numeroComVirgulas(lugar.population)}</span>
            </li>
         `
      }).join('')
