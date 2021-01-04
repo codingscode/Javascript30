@@ -12,7 +12,8 @@ pasta 6:
        no console aparece: json.js:11 Uncaught TypeError: Cannot read property 'filter' of undefined at HTMLInputElement.encontrarCombinacoes 
     no campo 'cidade ou estado' digitar fda ou qualquer coisa e clicar fora.
         aparece o valor digitado no console
-    digitando no campo 'cidade ou estado' aparece automaticamente
+    digitando no campo 'cidade ou estado' aparece automaticamente *idem 
+    já com o array dos objetos de cidades ou estados com o valor digitado incompleto
 
 
 

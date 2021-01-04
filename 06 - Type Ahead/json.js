@@ -17,7 +17,9 @@ function encontrarCombinacoes(palavra_chave, cidades) {
 
 //encontrarCombinacoes('Bos', cidades)
 function mostrarCombinacoes() {
-      console.log(this.value)
+     //console.log(this.value)
+     const combinarMatriz = encontrarCombinacoes(this.value, cidades)
+     console.log(combinarMatriz)
 }
    
 const entradaBuscar = document.querySelector('.buscar')
