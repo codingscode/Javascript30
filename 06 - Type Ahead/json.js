@@ -21,9 +21,13 @@ function mostrarCombinacoes() {
      const combinarMatriz = encontrarCombinacoes(this.value, cidades)
      //console.log(combinarMatriz)
      const html = combinarMatriz.map(lugar => {
+        const regex = new RegExp(this.value, 'gi')
+        const nomeCidade = lugar.city.replace(regex, `<span class="hl">${this.value}</span>`)
+        const nomeEstado = lugar.state.replace(regex, `<span class="hl">${this.value}</span>`)
+
         return `
            <li>
-               <span class="nome">${lugar.city}, ${lugar.state}</span>
+               <span class="nome">${nomeCidade}, ${nomeEstado}</span>
                <span class="populacao">${lugar.population}</span>
            </li>
         `
