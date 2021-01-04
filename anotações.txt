@@ -14,7 +14,7 @@ pasta 6:
         aparece o valor digitado no console
     digitando no campo 'cidade ou estado' aparece automaticamente *idem 
     já com o array dos objetos de cidades ou estados com o valor digitado incompleto
-
+    digitando no campo 'cidade ou estado' aparece automaticamente os possiveis locais na tela abaixo
 
 
 

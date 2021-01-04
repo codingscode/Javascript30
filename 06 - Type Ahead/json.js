@@ -19,7 +19,16 @@ function encontrarCombinacoes(palavra_chave, cidades) {
 function mostrarCombinacoes() {
      //console.log(this.value)
      const combinarMatriz = encontrarCombinacoes(this.value, cidades)
-     console.log(combinarMatriz)
+     //console.log(combinarMatriz)
+     const html = combinarMatriz.map(lugar => {
+        return `
+           <li>
+               <span class="nome">${lugar.city}, ${lugar.state}</span>
+               <span class="populacao">${lugar.population}</span>
+           </li>
+        `
+     }).join('')
+     sugestoes.innerHTML = html
 }
    
 const entradaBuscar = document.querySelector('.buscar')
