@@ -24,6 +24,7 @@ const entradaBuscar = document.querySelector('.buscar')
 const sugestoes = document.querySelector('.sugestoes')
    
 entradaBuscar.addEventListener('change', mostrarCombinacoes)
+entradaBuscar.addEventListener('keyup', mostrarCombinacoes)
    
 
 
