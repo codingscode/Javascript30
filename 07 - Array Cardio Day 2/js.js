@@ -27,12 +27,45 @@ const eAdulto = pessoas.some((cada) => {
 console.log({eAdulto})
 
 // Array.prototype.every() // is everyone 19 or older?
+const todosAdultos = pessoas.every((cada) => {
+    const anoAtual = (new Date()).getFullYear()
+    if (anoAtual - cada.ano >= 19) {
+       return true
+    }
+})
+ 
+console.log({todosAdultos})
 
 // Array.prototype.find()
 // Find is like filter, but instead returns just the one you are looking for
 // find the comment with the ID of 823423
+const comentario = comentarios.find(cada => {
+    if (cada.id === 823423) {
+       return true
+    }
+})
+
+console.log(comentario)
 
 // Array.prototype.findIndex()
 // Find the comment with this ID
 // delete the comment with the ID of 823423
+const indice = comentarios.findIndex(cada => cada.id === 823423)
+
+console.log(indice)
+
+comentarios.splice(indice, 1)
+
+// digitar console.table(comentarios) no console do browser
+
+const novosComentarios = [
+    ...comentarios.slice(0, indice),
+    ...comentarios.slice(indice + 1)
+]
+
+// digitar console.table(novosComentarios) no console do browser
+
+
+
+
 
