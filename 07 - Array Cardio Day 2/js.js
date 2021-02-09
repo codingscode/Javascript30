@@ -17,6 +17,15 @@ const comentarios = [
 
 // Some and Every Checks
 // Array.prototype.some() // is at least one person 19 or older?
+const eAdulto = pessoas.some((cada) => {
+    const anoAtual = (new Date()).getFullYear()
+    if (anoAtual - cada.ano >= 19) {
+       return true
+    }
+})
+ 
+console.log({eAdulto})
+
 // Array.prototype.every() // is everyone 19 or older?
 
 // Array.prototype.find()
