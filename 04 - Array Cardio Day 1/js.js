@@ -113,7 +113,7 @@
      ]
 
      console.log('#08')
-
+    // array.reduce(function(total, valorAtual, indiceAtual, arr), valorInicial)
      const transporte = dado.reduce((objeto, item) => {
         if (!objeto[item]) {
             objeto[item] = 0
