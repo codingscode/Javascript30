@@ -19,6 +19,8 @@ pasta 6:
     numero populacao com virgula
 
 
+pasta 8:
+    na tela segurar o clique e mover o mouse    
 
 
 
