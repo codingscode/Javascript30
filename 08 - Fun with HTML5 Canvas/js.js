@@ -13,6 +13,10 @@ let ultimoY = 0
 function desenhar(evento) {
    if (!estaDesenhando) return
    console.log(evento)
+   contexto.beginPath()
+   contexto.moveTo(ultimoX, ultimoY)
+   contexto.lineTo(evento.offsetX, evento.offsetY)
+   contexto.stroke()
 }
 
 canvas.addEventListener('mousemove', desenhar)

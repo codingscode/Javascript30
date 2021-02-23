@@ -21,7 +21,7 @@ pasta 6:
 
 pasta 8:
     na tela segurar o clique e mover o mouse    
-
+    já começa a desenhar
 
 
 
